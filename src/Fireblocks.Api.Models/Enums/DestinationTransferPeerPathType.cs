@@ -1,0 +1,13 @@
+namespace Fireblocks.Api.Enums;
+
+public enum DestinationTransferPeerPathType
+{
+	VAULT_ACCOUNT = 1,
+	EXCHANGE_ACCOUNT,
+	INTERNAL_WALLET,
+	EXTERNAL_WALLET,
+	ONE_TIME_ADDRESS,
+	NETWORK_CONNECTION,
+	FIAT_ACCOUNT,
+	COMPOUND
+}

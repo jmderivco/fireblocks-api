@@ -1,0 +1,15 @@
+namespace Fireblocks.Api.Enums;
+
+public enum TransactionSourceType
+{
+	VAULT_ACCOUNT = 1,
+	EXCHANGE_ACCOUNT,
+	INTERNAL_WALLET,
+	EXTERNAL_WALLET,
+	FIAT_ACCOUNT,
+	NETWORK_CONNECTION,
+	COMPOUND,
+	UNKNOWN,
+	GAS_STATION,
+	OEC_PARTNER
+}

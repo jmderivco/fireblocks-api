@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{0F91ABAB-1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fireblocks.Api.Tests", "test\Fireblocks.Api.Tests\Fireblocks.Api.Tests.csproj", "{F026242E-A5A9-446B-A11E-0CF15D8514FF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fireblocks.Api.Models", "src\Fireblocks.Api.Models\Fireblocks.Api.Models.csproj", "{AAB53875-BDB3-4B27-8128-CCAFD5FB07E5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,9 +30,14 @@ Global
 		{F026242E-A5A9-446B-A11E-0CF15D8514FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F026242E-A5A9-446B-A11E-0CF15D8514FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F026242E-A5A9-446B-A11E-0CF15D8514FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAB53875-BDB3-4B27-8128-CCAFD5FB07E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAB53875-BDB3-4B27-8128-CCAFD5FB07E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAB53875-BDB3-4B27-8128-CCAFD5FB07E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAB53875-BDB3-4B27-8128-CCAFD5FB07E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{4059A5C1-4098-45E1-9CAE-64752F58E7C8} = {ABA44337-A1FE-43E7-8E46-24B0EF8A66CB}
 		{F026242E-A5A9-446B-A11E-0CF15D8514FF} = {0F91ABAB-14E5-4258-9A6F-4E6D8164EE8E}
+		{AAB53875-BDB3-4B27-8128-CCAFD5FB07E5} = {ABA44337-A1FE-43E7-8E46-24B0EF8A66CB}
 	EndGlobalSection
 EndGlobal
